@@ -1,10 +1,40 @@
-*{
+body {
   font-family: monospace;
   text-align: center;
 }
 
 .container{
   border: 1px solid black;
+  height: 300px
   margin-top: 10px;
-  height: 400px
+  padding: 10px
+}
+
+.container div {
+  font-size: 32px;
+}
+
+.container h2 {
+  font-size: 32px;
+}
+
+
+.weatherItem{
+  font-size: 20px;
+}
+
+
+.weatherStatus{
+  font-size: 64px;
+  text-align: left;
+}
+
+.items{
+  text-align: right;
+}
+.data {
+  text-align: left;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
